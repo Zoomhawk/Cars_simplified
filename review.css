@@ -1,0 +1,56 @@
+
+*{
+margin: 0px;
+padding: 0px;
+}
+body{
+    background-color: hsl(238, 21%, 27%);
+}
+.containers{
+    padding:5px 5px;
+    display: flex;
+    flex-direction: row; 
+    background-color: hsl(238, 21%, 27%);
+}
+.containers .left{
+    position: relative;
+    width: 500px;
+}
+.containers .right{
+
+}
+
+.form-group{
+    display: flex;
+    flex-direction: row;
+    margin: 12px 20px;
+    border: solid black 1px;
+    border-radius: 5px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+}
+.form-group input{
+    width: 300px;
+}
+.form-group textarea{
+    width: 300px;
+}
+
+.partition{
+    display: flex;
+    flex-direction: row;
+}
+
+.textcolor{
+    color: white;
+}
+
+.formcolor{
+    background-color: hsl(238, 22%, 24%);
+}
+
+#submit{
+    position: relative;
+    left: 50px;
+}
